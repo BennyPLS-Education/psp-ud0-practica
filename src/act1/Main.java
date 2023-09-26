@@ -7,9 +7,9 @@ public class Main {
         int b = 5;
 
         // Printing the results of different operations
-        System.out.println(a + b);
-        System.out.println(a - b);
-        System.out.println(a * b);
-        System.out.println(a / b);
+        System.out.println("Sum   -" + a + b);
+        System.out.println("Minus -" + (a - b));
+        System.out.println("Mult  -" + a * b);
+        System.out.println("Div   -" + a / b);
     }
 }
