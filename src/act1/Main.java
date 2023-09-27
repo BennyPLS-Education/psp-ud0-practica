@@ -13,6 +13,13 @@ public class Main {
         int a = 10;
         int b = 5;
 
+        System.out.println("Exercici 1");
+        System.out.println("----------");
+
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+
+        System.out.println("----------");
         System.out.println("Sum   -" + a + b);
         System.out.println("Minus -" + (a - b));
         System.out.println("Mult  -" + a * b);

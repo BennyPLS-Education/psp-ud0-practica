@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 /**
- * <h2> Exercici 2
+ * <h2> Exercici 4
  * <p>
  * A aquesta activitat hem de dissenyar un programa que sigui capaç de llegir per
  * teclat mitjançant "InputStreamReader" i "BufferedReader" diferents tipus de dades
@@ -16,6 +16,9 @@ public class Main {
     public static void main(String[] args) {
         var input = new BufferedReader(new InputStreamReader(System.in));
         String userInput;
+
+        System.out.println("Exercici 4");
+        System.out.println("----------");
 
         System.out.println("Introdueix 'exit' per sortir");
         System.out.println("Introdueix un 'integer', 'float', 'double' o 'string'");

@@ -15,6 +15,9 @@ public class Main {
 
         var input = new Scanner(System.in);
 
+        System.out.println("Exercici 2");
+        System.out.println("----------");
+
         System.out.print("Nom de l'alumne: ");
         String name = input.nextLine();
 

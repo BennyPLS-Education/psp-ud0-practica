@@ -4,7 +4,7 @@ package act3;
 import java.util.Scanner;
 
 /**
- * <h2> Exercici 2
+ * <h2> Exercici 3
  * <p>
  * A aquesta activitat hem de dissenyar un programa que calculi el sou d'un
  * treballador. Ha de demanar quantes hores fa feina al dia, quants de dies al mes fa
@@ -18,6 +18,9 @@ public class Main {
         int hoursPerDay;
         int daysPerMonth;
         double hourlyRate;
+
+        System.out.println("Exercici 3");
+        System.out.println("----------");
 
         System.out.print("Quantes hores fa feina al dia? ");
         hoursPerDay = input.nextInt();
