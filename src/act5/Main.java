@@ -14,6 +14,7 @@ import java.io.*;
 public class Main {
 
     private static final String PATH = "./src/act5/text.txt";
+
     public static void main(String[] args) throws IOException {
         System.out.println("Exercici 5");
         System.out.println("----------");
@@ -21,6 +22,14 @@ public class Main {
         llegir(PATH);
     }
 
+
+    /**
+     * Read a file in the file system and output
+     * the contents in the console.
+     *
+     * @param path the path of the file to read.
+     * @throws IOException if an I/O error occurs.
+     */
     public static void llegir(String path) throws IOException {
         var reader = new BufferedReader(new FileReader(path));
         String line;
@@ -32,6 +41,14 @@ public class Main {
         reader.close();
     }
 
+
+    /**
+     * Write a text in a file in the file system based on
+     * the user input. (System.in)
+     *
+     * @param path the path of the file to write.
+     * @throws IOException if an I/O error occurs.
+     */
     public static void escriure(String path) throws IOException {
         var input = new BufferedReader(new InputStreamReader(System.in));
         String text;
